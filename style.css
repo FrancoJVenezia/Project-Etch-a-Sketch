@@ -1,0 +1,23 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+#gridContainer{
+    display: flex;
+    flex-flow: row wrap;
+    height: 600px;
+    width: 600px;
+    justify-content: space-around;
+    position: relative;
+    border: 1px solid orange;
+}
+.divGrid{
+    border: 0.5px solid black;
+    border-radius: 0.1rem;
+}
+.active{
+    background-color: blue;
+}
