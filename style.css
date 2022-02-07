@@ -4,20 +4,37 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  gap: 0;
 }
 #gridContainer{
     display: flex;
-    flex-flow: row wrap;
-    height: 600px;
-    width: 600px;
-    justify-content: space-around;
+    height: 500px;
+    width: 500px;
     position: relative;
-    border: 1px solid orange;
+    margin-top: 30px;
+    border: 2px solid orange;
+    flex-flow: row wrap;
+    justify-content: space-around;
 }
 .divGrid{
     border: 0.5px solid black;
-    border-radius: 0.1rem;
+    border-radius: 15%;
 }
 .active{
     background-color: blue;
+}
+.boton{
+    background-color: rgb(212, 169, 211);
+    border: orchid 0.5px solid;
+    border-radius: 10%;
+    padding: 8px 20px;
+    font-size: 1.4rem;
+    margin-top: 30px;
+    justify-self: center;
+}
+.containerDelContainer{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
 }

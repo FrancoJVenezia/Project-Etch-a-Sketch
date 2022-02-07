@@ -15,7 +15,7 @@ function createDiv (size){
 function createGrid (gridSize){
     for (let i = 0; i<gridSize; i++){
         for(let j = 0; j<gridSize; j++){
-            gridContainer.appendChild(createDiv(gridContainer.clientWidth / gridSize));
+            gridContainer.appendChild(createDiv((gridContainer.clientWidth / gridSize)-0.1));
         }
         
     }
